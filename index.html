@@ -1,11 +1,91 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>siddharth deore</title>
-    </head>
-    <body>
-        <h1>deore.in</h1>
+<head>
+    <title>siddharth deore</title>
+    <style type="text/css">
+        * { 
+            font-family: "Bookman", "URW Bookman L", serif;
+        }
+        
+        html,
+        body {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+            overflow-y: hidden;
+            width: 90%;
+            margin-left: 5%;
+            margin-right: 5%;
+        }
+        
+        #wrap {
+            min-height: 100%;
+            padding: 12px;
+        }
+        
+        #main {
+            overflow: auto;
+            padding-bottom: 96;
+            /* must be same height as the footer */
+        }
+        
+        .menu a:link {
+            color: cornflowerblue;
+        }
+        .menu a:visited {
+            color: cornflowerblue;
+        }
+        .menu a:hover {
+            color: blue;
+        }
+        .header {
+            color: rgb(72, 72, 72);
+            
+        }
+        .header .strg {
+            color: rgb(48, 48, 48);
+        }
+        
+        #footer {
+            position: relative;
+            margin-top: -96px;
+            /* negative value of footer height */
+            height: 96px;
+            padding: 12px;
+            clear: both;
+            text-align: right;
+        }
+    </style>
+</head>
+<body>
+    <div id="wrap">
+        <div id="main">
+            <div class="header">
+                <h1><span class="strg">S</span>iddharth <span class="strg">D</span>eore</h1>
+            </div>
+            <div class="menu">
+                <hr />
+                <a href="#home">home</a>
+                <a href="#home">about</a>
+                <a href="#home">projects</a>
+                <a href="#home">cv</a>
+                <a href="#home">contact</a>
+                <hr />
+            </div>
+            <div id="content">
+                <p>Hi, I parked this domain because I had to!</p>
+            </div>
+        </div>        
+    </div>        
+    <div id="footer">  
         <hr />
-        <p>Hi, this is test!</p>
-    </body>
+        <span style="text-align: left; float: left;">
+            <a href="https://github.com/siddharthdeore/">github</a> - 
+            <a href="https://www.linkedin.com/in/siddharth-deore/">linkedin</a>
+        </span>
+        <span style="text-align: right; float: right;">
+                &copy; deore.in
+        </span>
+    </div>
+</body>
 </html>
