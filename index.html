@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>siddharth deore</title>
+    <title>deore.in</title>
     <style type="text/css">
         * { 
             font-family: "Bookman", "URW Bookman L", serif;
@@ -12,7 +12,6 @@
             height: 100%;
             margin: 0;
             padding: 0;
-            overflow-y: hidden;
             width: 90%;
             margin-left: 5%;
             margin-right: 5%;
@@ -28,25 +27,28 @@
             padding-bottom: 96;
             /* must be same height as the footer */
         }
-        
-        .menu a:link {
+        .menu a,.footer a {
+            padding:5px;
+        }
+        .menu a:link,.menu a:visited,.footer a:link,.footer a:visited {
             color: cornflowerblue;
         }
-        .menu a:visited {
-            color: cornflowerblue;
-        }
-        .menu a:hover {
+        .menu a:hover,.footer a:hover {
             color: blue;
         }
-        .header {
+        #header {
             color: rgb(72, 72, 72);
-            
         }
-        .header .strg {
+        #header .strg {
             color: rgb(48, 48, 48);
         }
+        .subheader {
+            color: rgb(128, 128, 128);
+            font-size: 0.9em;
+            margin-top: -12px;
+        }
         
-        #footer {
+        .footer {
             position: relative;
             margin-top: -96px;
             /* negative value of footer height */
@@ -55,37 +57,96 @@
             clear: both;
             text-align: right;
         }
+        input, textarea {
+            font-size: 1.1em;
+            margin: 10px 0px 10px 0px;
+        }
     </style>
 </head>
-<body>
+<body onload="showHome();">
     <div id="wrap">
         <div id="main">
-            <div class="header">
+            <div id="header">
                 <h1><span class="strg">S</span>iddharth <span class="strg">D</span>eore</h1>
+                <!-- <div class="subheader">aerospace, robots!</div> -->
             </div>
             <div class="menu">
                 <hr />
-                <a href="#home">home</a>
-                <a href="#home">about</a>
-                <a href="#home">projects</a>
-                <a href="#home">cv</a>
-                <a href="#home">contact</a>
+                <a href="#" onclick="showHome();">home</a>
+                <a href="#" onclick="showAbout();">about</a>
+                <a href="#" onclick="showProject();">projects</a>
+                <a href="#" onclick="showContact();">contact</a> 
                 <hr />
             </div>
             <div id="content">
-                <p>Hi, I parked this domain because I had to!</p>
+                <div id="home">
+                    <p>Hi, I parked this domain because I had too!</p>
+                </div>
+                <div id="about">
+                    <p>Have this page because it's there on all websites!</p>
+                </div>
+                <div id="project">
+                    <p>I had those on siroi.co.in, now there is mess with that domain and dumped everything on github</p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum in nulla et sem commodo porta. Etiam posuere ac erat eu imperdiet. Sed nec felis ligula. Quisque tristique malesuada neque in ultricies. Nulla luctus mollis nibh, vitae rutrum nunc maximus ut. Curabitur ut tincidunt leo, ac viverra ligula. Vivamus id fringilla dui. Integer volutpat ultrices neque in tempus. Integer semper ipsum vitae ultricies luctus. Duis porttitor erat pharetra, posuere nibh sed, pretium tortor. Pellentesque in pellentesque magna. Nullam accumsan, tellus id rhoncus convallis, lorem massa congue massa, pellentesque commodo augue sem ut sem. Ut mollis quam leo, vel interdum nibh cursus et. 
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum in nulla et sem commodo porta. Etiam posuere ac erat eu imperdiet. Sed nec felis ligula. Quisque tristique malesuada neque in ultricies. Nulla luctus mollis nibh, vitae rutrum nunc maximus ut. Curabitur ut tincidunt leo, ac viverra ligula. Vivamus id fringilla dui. Integer volutpat ultrices neque in tempus. Integer semper ipsum vitae ultricies luctus. Duis porttitor erat pharetra, posuere nibh sed, pretium tortor. Pellentesque in pellentesque magna. Nullam accumsan, tellus id rhoncus convallis, lorem massa congue massa, pellentesque commodo augue sem ut sem. Ut mollis quam leo, vel interdum nibh cursus et. 
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum in nulla et sem commodo porta. Etiam posuere ac erat eu imperdiet. Sed nec felis ligula. Quisque tristique malesuada neque in ultricies. Nulla luctus mollis nibh, vitae rutrum nunc maximus ut. Curabitur ut tincidunt leo, ac viverra ligula. Vivamus id fringilla dui. Integer volutpat ultrices neque in tempus. Integer semper ipsum vitae ultricies luctus. Duis porttitor erat pharetra, posuere nibh sed, pretium tortor. Pellentesque in pellentesque magna. Nullam accumsan, tellus id rhoncus convallis, lorem massa congue massa, pellentesque commodo augue sem ut sem. Ut mollis quam leo, vel interdum nibh cursus et. 
+                </div>
+                <div id="contact">
+                    <p><form>
+                            Name <br  />
+                            <input type="text" style="width:250px"><br  />
+                            Email <br  />
+                            <input type="text"  style="width:250px"><br  />
+                            Message <br  />
+                            <textarea rows="4" cols="50"></textarea><br  />
+                            <input type="button" value="Submit">
+                    </p>
+                </form>
+                </div>
             </div>
         </div>        
     </div>        
-    <div id="footer">  
+    <div class="footer">  
         <hr />
         <span style="text-align: left; float: left;">
             <a href="https://github.com/siddharthdeore/">github</a> - 
-            <a href="https://www.linkedin.com/in/siddharth-deore/">linkedin</a>
+            <a href="https://www.linkedin.com/in/siddharth-deore/">linkedin</a> -
+            <a href="#home">CV </a>
         </span>
         <span style="text-align: right; float: right;">
-                &copy; deore.in
+            &copy; deore.in
         </span>
     </div>
 </body>
+<script language="javascript">
+    var d1=document.getElementById("home");
+    var d2=document.getElementById("about");
+    var d3=document.getElementById("project");
+    var d4=document.getElementById("contact");
+    clearAll();
+    function showHome(){
+        clearAll();
+        d1.style.display  = 'block';
+    } 
+    function showAbout(){
+        clearAll();
+        d2.style.display  = 'block';
+    } 
+    function showProject(){
+        clearAll();
+        d3.style.display  = 'block';
+    } 
+    function showContact(){
+        clearAll();
+        d4.style.display  = 'block';
+    } 
+    function clearAll() {
+        d1.style.display  = 'none';
+        d2.style.display  = 'none';            
+        d3.style.display  = 'none';
+        d4.style.display  = 'none';
+        
+    }
+</script>
+
 </html>
