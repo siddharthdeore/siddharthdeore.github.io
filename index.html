@@ -3,15 +3,15 @@
 <head>
     <title>deore.in</title>
     <meta charset="utf-8" name="viewport"  content= "width=device-width, initial-scale=0.8"> 
-    
+    <link rel="stylesheet" type="text/css" href="https://cdn.rawgit.com/dreampulse/computer-modern-web-font/master/fonts.css">
     <style type="text/css">
         * { 
-            font-family: "Bookman", "URW Bookman L", serif;
+            font-family: "Computer Modern Sans", sans-serif;
         }
         
         html,
         body {
-            height: 100%;
+            height: calc(-48px + 100%);
             margin: 0;
             padding: 0;
             width: 90%;
@@ -33,29 +33,27 @@
             padding:5px;
         }
         .menu a:link,.menu a:visited,.footer a:link,.footer a:visited {
-            color: rgb(0, 89, 255);
+            color: rgb(83, 83, 83);
         }
         .menu a:hover,.footer a:hover {
-            color: rgb(0, 0, 160);
+            color: rgb(0, 0, 0);
         }
         #header {
-            color: rgb(0,0,0);
             text-align: center;
+            padding: 20px;
         }
-        #header .strg {
-            color: rgb(28, 28, 48);
+        #header .logo {
+            color: rgb(0, 0, 0);
         }
         .subheader {
-            color: rgb(128, 128, 128);
+            color: rgb(80, 80, 80);
             font-size: 0.9em;
-            margin-top: -12px;
+            margin-top: -24px;
         }
         
         .footer {
             position: relative;
-            margin-top: -80px;
             /* negative value of footer height */
-            height: 64px;
             padding: 12px;
             clear: both;
             text-align: right;
@@ -67,6 +65,29 @@
         }
         #content {
             min-height: 90%;
+        }
+        #appgrid ul {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));;
+            list-style-type: none;
+            grid-row-gap:5px;
+            grid-column-gap:5px;
+        }
+        #appgrid ul li {
+            height:100px;
+            background-color:rgb(240, 240, 240);
+            padding: 10px;
+            text-align: center;
+        }
+        #appgrid ul li {
+            height:100px;
+            background-color:rgb(185, 185, 185);
+            padding: 10px;
+            text-align: center;
+        }
+        li a:link,li a:visited,li a:link,li a:visited {
+            text-decoration: none;
+            color: rgb(31, 31, 31);
         }
     </style>
     <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -85,13 +106,13 @@
     <div id="wrap">
         <div id="main">
             <div id="header">
-                <h1>deore.in</h1>
+                <h1><span class="logo">deore.in</span></h1>
                 <div class="subheader">aerospace, robots!</div> 
             </div>
             <div class="menu">
                 <hr />
-                <a href="#" onclick="showHome();">home</a>
-                <a href="#" onclick="showProject();">projects</a>
+                <a href="#" onclick="showHome();">home</a> 
+                <a href="#" onclick="showProject();">projects</a> 
                 <a href="#" onclick="showContact();">contact</a> 
                 <hr />
             </div>
@@ -107,11 +128,12 @@
                     <p>Had all those projects on siroi.co.in, now there is mess with that domain, somehow was able to recover some archived simulations.</p>
                     3D Inverse Kinematics <a href="/docs/FABRIKSpaceRobotics.pdf">report</a>
                     <hr>
+                    <div id="appgrid">
                     <?php echo "Simulations <br />";
                     $path = "apps"; 
                     $dh = opendir($path); 
                     $i=1; 
-                    echo "<ol>";
+                    echo "<ul>";
                         while (($file = readdir($dh)) !== false) { 
                             if($file != "." && $file != ".." && $file != "index.php" && $file != ".htaccess" && $file != "error_log" && $file != "cgi-bin") {
                                 echo "<li> <a href='$path/$file'>$file</a> </li> "; 
@@ -129,7 +151,7 @@
                         <br />
                         <br />
                     </div>
-                    
+                </div>
                     <!-- ---------------------------------------------- -->
                     
                     <div id="contact">
