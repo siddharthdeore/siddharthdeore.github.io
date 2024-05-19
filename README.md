@@ -12,9 +12,8 @@ Space and Astronautical Engineer with a strong background in designing, mathemat
 - Integrated control algorithms and intelligent operating modes through low and high-level software development in wearable robots, force feedback devices, and sensor systems.
 - Created drivers to interface teleoperation devices with host systems.
 - Implemented existing firmware and developed new functions for embedded systems.
-- Developed a plugin-based modular real-time middleware for teleoperation.
+- Developed a plugin-based modular real-time middleware for teleoperation. Integrated with various communication protocols (UDP/TCP, CAN, RS485, RS232) with non-blocking interfaces, adhering to industry standards for reliable and efficient data transmission.
 - Integrated with state-of-the-art middlewares such as ROS/ROS2 and XBotCore.
-- Developed various communication protocols (UDP/TCP, CAN, RS485, RS232) with non-blocking interfaces, adhering to industry standards for reliable and efficient data transmission.
 
 <b>Skills:</b> C, C++17, Python, Matlab, ROS, ROS2, XBot, Quadratic Programming, MPC
 
@@ -66,15 +65,13 @@ Space and Astronautical Engineer with a strong background in designing, mathemat
 - <b>Thesis:</b> <i>Designed and developed antivirus software.</i>
 - Graduated with a score of 6.45/10.
 ## Technical Skills
-
-Programing: C/C++, MATLAB, JavasSript, Python, C#, Java, MySQL
-
-Tools and Frameworks: CMake, Git, Microsoft Visual Basic 6.0, PyQT GUI, OpenGL and Boost C++, ROS, XBotCore, Tensorflow, Keras, Linux PREEMPT-RT, xenomai.
+- <b>Programing:</b> C/C++, MATLAB, JavasSript, Python, C#, Java, MySQL
+- <b>Tools and Frameworks:</b> CMake, Git, Microsoft Visual Basic 6.0, PyQT GUI, OpenGL and Boost C++, ROS, XBotCore, Tensorflow, Keras, Linux PREEMPT-RT, xenomai.
 Knowledge of digital signal processing, Software Defined Radio, GNU Radio.
-Document Processing : Microsoft Office, Open Office, LaTeX.
-Drafting and Modeling : Expertise in AutoCAD, CATIA V5 and Solidworks, Inventor.
-Simulation : Simulink, Multibody Dynamics with MSC Adams, MuJoCo, Bullet Physics, CFD and post processing using ANSYS Fluent.
-Embedded Systems : Hands on experience on AVR, ARM Microcontrollers. Proficient in robotics and automation using open source development frameworks, STM32 IDE, Arduino IDE, and state of the art real time single board computers.
+- <b>Document Processing :</b> Microsoft Office, Open Office, LaTeX.
+- <b>Drafting and Modeling :</b> Expertise in AutoCAD, CATIA V5 and Solidworks, Inventor.
+- <b>Simulation :</b> Simulink, Multibody Dynamics with MSC Adams, MuJoCo, Bullet Physics, CFD and post processing using ANSYS Fluent.
+- <b>Embedded Systems :</b> Hands on experience on AVR, ARM Microcontrollers. Proficient in robotics and automation using open source development frameworks, STM32 IDE, Arduino IDE, and state of the art real time single board computers.
 
 
 ## Publications
