@@ -8,12 +8,15 @@ Space and Astronautical Engineer with a strong background in designing, mathemat
 <b>Istituto Italiano di Tecnologia, Genova, Italy</b>
 <i>Jul 2021 – Present</i>
 
-- Developed architectures and modules for integrating devices into the main teleoperation system.
-- Integrated control algorithms and intelligent operating modes through low and high-level software development in wearable robots, force feedback devices, and sensor systems.
-- Created drivers to interface teleoperation devices with host systems.
-- Implemented existing firmware and developed new functions for embedded systems.
-- Developed a plugin-based modular real-time middleware for teleoperation. Integrated with various communication protocols (UDP/TCP, CAN, RS485, RS232) with non-blocking interfaces, adhering to industry standards for reliable and efficient data transmission.
-- Integrated with state-of-the-art middlewares such as ROS/ROS2 and XBotCore.
+- Responsible for teleoperation activities in the INAIL RT-2 project within the Humanoid Human Centered Robotics (HHCM) Research Line. 
+- Developed and implemented architectures and modules for seamless integration of devices into the main teleoperation system, enhancing the overall functionality and performance.
+- Integrated control algorithms and intelligent operating modes through low and high-level software development in wearable robots, force feedback devices, and sensor systems, resulting in improved user experience and increased efficiency.
+- Created drivers to interface teleoperation devices with host systems, ensuring smooth communication and compatibility between different components.
+- Implemented existing firmware and developed new functions for embedded systems, enhancing the capabilities and versatility of the devices.
+- Developed a plugin-based modular real-time middleware for teleoperation, integrating various communication protocols (UDP/TCP, CAN, RS485, RS232) with non-blocking interfaces, adhering to industry standards for reliable and efficient data transmission.
+- Integrated with state-of-the-art middlewares such as ROS/ROS2 and XBotCore, leveraging their capabilities and expanding the functionality of the teleoperation system.
+- Maintained clear and concise documentation of all development activities, ensuring ease of understanding and facilitating future maintenance and updates.
+- Collaborated with cross-functional teams to achieve bimanual teleoperation on a hydraulic quadruped.
 
 <b>Skills:</b> C, C++17, Python, Matlab, ROS, ROS2, XBot, Quadratic Programming, MPC
 
@@ -22,9 +25,9 @@ Space and Astronautical Engineer with a strong background in designing, mathemat
 <b>SED Soluzioni per l'Energia e Diagnostica Srl, Rome, Italy</b>
 <i>Mar 2020 – Jun 2020</i>
 
-- Developed software for microcontrollers for the IIoT Abacus platform project, Artes 4.0.
-- Created libraries and testing tools for a network of IMUs using RS485 ModBus protocol.
-- Built a web-based tool to monitor robot states and visualize them in 3D.
+- Developed firmware for microcontrollers as part of the IIoT Abacus platform project, Artes 4.0, enabling  seamless integration and communication between devices. 
+- Created libraries and testing tools for a network of IMUs, utilizing the RS485 ModBus protocol, resulting in improved efficiency and accuracy of data transmission. 
+- Designed and implemented a web-based tool to monitor robot states and visualize them in 3D, enhancing real-time monitoring and analysis capabilities. 
 
 <b>Skills:</b> STM32, ESP32, C, C++, State Estimator, JavaScript, Three.js
 
@@ -33,9 +36,9 @@ Space and Astronautical Engineer with a strong background in designing, mathemat
 <b>Aman Aviation and Aerospace Pvt. Ltd., Mumbai, Maharashtra, India</b>
 <i>Jul 2016 – Apr 2017</i>
 
-- Designed, prototyped, and manufactured UAVs weighing under 100kg for military use.
-- Integrated various drone actuators and communication peripherals, ensuring smooth operation.
-- Developed custom flight control systems and ground stations for UAVs.
+- Designed, prototyped, and manufactured UAVs weighing under 100kg for military use, incorporating cutting-edge technologies and adhering to strict safety and performance standards. 
+- Integrated various drone actuators and communication peripherals, ensuring seamless operation and optimal functionality of UAVs. 
+- Developed custom flight control systems and ground stations, enhancing the efficiency and reliability of UAV operations. 
 
 <b>Skills:</b> CATIA V5, C++, STM32
 
@@ -45,8 +48,11 @@ Space and Astronautical Engineer with a strong background in designing, mathemat
 <b>Sapienza University of Rome, Italy</b>
 <i>Dipartimento di Ingegneria Meccanica e Aerospaziale (DIMA)</i>
 <i>Graduated: January 2021</i>
-
-- <b>Thesis:</b> <i>Developed a neural network-based steering system and simulated it using hardware-in-loop for a variable speed control moment gyroscope.</i>
+Thesis: Neural network-based steering system and hardware-in-loop simulation of a variable speed control 
+moment gyroscope. 
+- Designed and manufactured a modular test bench for attitude dynamics and control simulation of spacecraft, providing a versatile and customizable platform for conducting experiments and analysis. 
+- Conducted mathematical modeling and control analysis using state-of-the-art momentum exchange devices  such as reaction wheels and variable speed control moment gyroscopes, optimizing spacecraft maneuverability and stability. 
+- Developed and tested a neural network policy for singularity avoidance steering of a variable speed control moment gyroscope, enhancing the safety and reliability of spacecraft operations. 
 - Graduated with a score of 104/110.
 
 ## Bachelor of Technology in Aerospace Engineering
@@ -54,8 +60,11 @@ Space and Astronautical Engineer with a strong background in designing, mathemat
 <b>SRM University, Chennai, India</b>
 <i>Graduated: March 2016</i>
 
-- <b>Thesis:</b> <i>Designed, built, and studied a single rotor spherical Vertical Take-Off and Landing (VTOL) Unmanned Aerial Vehicle (UAV).</i>
-- Graduated with a GPA of 7.42/10.
+<b>Thesis:</b> <i>Design, manufacturing, and study of a single rotor spherical Vertical Take-Off and Landing (VTOL) Unmanned Aerial Vehicle (UAV).</i>
+- Mathematical modeling of flight control laws. 
+- Design and Manufacturing of Spherical Single rotor VTOL UAV. 
+- Design of custom flight controller specifically suited for projects requirements. 
+- Graduated with a GPA of 7.42/10 
 
 ## Diploma in Computer Science
 
