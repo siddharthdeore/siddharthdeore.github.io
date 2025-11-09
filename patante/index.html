@@ -128,8 +128,8 @@
       <div class="brand">
         <div class="logo"><i class="bi bi-lightning-charge-fill"></i></div>
         <div>
-          <div class="h5 mb-0">Quiz Trainer Pro</div>
-          <small class="muted">Playful • Focused • Fast</small>
+          <div class="h5 mb-0">Quiz Patante</div>
+          <small class="muted">Patante Teoria</small>
         </div>
       </div>
 
@@ -385,7 +385,7 @@ const UI = {
       <div class="q-text mb-3">${escapeHtml(q.text)}</div>
     `;
 
-    const imgHtml = q.image ? `<div class="mb-2"><img src="${escapeHtml(q.image)}" alt="question image" class="q-image img-fluid" loading="lazy" /></div>` : '';
+    const imgHtml = q.image ? `<div class="mb-2"><img src="patante/${escapeHtml(q.image)}" alt="question image" class="q-image img-fluid" loading="lazy" /></div>` : '';
 
     const hintHtml = (State.settings.autoShowHint && q.hint) ? `<div class="hint-box mb-2">💡 ${escapeHtml(q.hint)}</div>` : '';
 
